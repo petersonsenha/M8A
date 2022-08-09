@@ -1,0 +1,279 @@
+/*-------------  P  A  G  I  N  A  Ç  Ã  O ---------------*/
+.container{
+  /*width: 600px;*/
+  margin-left: 10%;
+  margin-right: 20%;
+  text-align: justify;
+}
+.numero2 {
+	padding: 10px 18px 10px 18px;
+	margin-left: 20%;
+    background: rgb(249, 176, 0);
+	border-top: solid rgba(254,211,141,255) 6px;
+    display: inline-block;
+    color: #fff;
+    page-break-before: auto;
+    text-align: right;
+    text-align-last: right;
+    align-self: right;
+}
+/*-------------G R I D S ---------------*/
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 2px; 
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  justify-content: space-between;
+}
+.iconedireita {
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex2 {
+  display: flex;
+  align-items: right;
+  gap: 2px;
+  justify-content: space-between;
+}
+.tituloH1{
+  
+}
+/*-------------C A R T Õ E S ---------------*/
+.card{
+    position: relative;
+    top: 0;
+    margin-left: 10%;
+    border: 1px solid rgb(249, 176, 0);
+    border-radius: 3px;
+    background-color: rgb(254, 236, 205);
+}
+.cardTexto{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cardFoto{
+  text-align: center;
+  display: block;
+  width: 70%;
+  border: 1px;
+  margin: 10%;
+  border: 1px solid rgb(249, 176, 0);
+  border-radius: 10px;
+  background-color: rgb(254, 236, 205);
+}
+.cardIntro{
+    text-align: center;
+    display: block;
+    width: 70%;
+    border: 1px;
+    margin: 10%;
+}
+.converse{
+    display: block;
+    width: 0.8fr;
+    margin: 0%!important;
+    padding: 0%;
+    text-align: left!important;
+    align-items: left;
+}
+/*-------------I  M  A  G  E  N  S ---------------*/
+.img {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.imgicone {
+  width: 100px;
+  height: 120px;
+}
+.imginter {
+  text-align: center;
+  width: 100vh;
+  height: auto;
+}
+.imginter:hover{
+  
+}
+.imgreal {
+  text-align: center;
+  width: 100vh;
+  height: auto;
+}
+.imgred{
+  width: 300px !important;
+  height: 300px !important;
+}
+.professorpg113{
+  width: 50%;
+  height: 50%;  
+}
+/*-------------A L I N H A M E N T O ---------------*/
+.indent{
+  text-indent: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.textright {
+  text-align: right;
+}
+.center{
+  text-align: center;
+  align-items: center;
+}
+.right {
+  text-align: right;
+  /*float: right;*/
+}
+.textleft{
+    text-align: left;
+}
+.textcenter {
+  text-align: center;
+}
+.negrito{
+  font-weight: bold;
+}
+
+/*-------------C O L O R A Ç Ã O ---------------*/
+.laranja{
+  color: rgb(241, 135, 22);    
+}
+.amarelo{
+  color: rgb(249, 176, 0);
+  font-size: 12px;
+}
+.normal{
+  color: black;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+  text-indent: 0;
+	/*font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	/*line-height:1.25;*/
+	/*list-style-position:outside;*/
+	/*margin-bottom:3px;*/
+	/*margin-left:48px;*/
+	/*margin-right:0;
+	/*margin-top:0;
+	/*orphans:1;*/
+	/*text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	/*widows:1;*/
+}
+.atividade {
+  color: rgb(241, 135, 22);
+}
+.fundoCinza {
+  background-color: rgb(236, 236, 238);
+}
+math {
+  direction: ltr;
+  writing-mode: horizontal-tb;
+  text-indent: 0;
+  letter-spacing: normal;
+  line-height: normal;
+  word-spacing: normal;
+  font-family: math;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  display: inline math;
+  /*math-shift: normal;
+  math-style: compact;
+  /*math-depth: 0;*/
+}
+/*-------------------L A Y O U T ---------------*/
+.layoutUnico{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.LayoutDuplo {
+  display: flex;
+  gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+}
+.LayoutTriplo {
+  display: flex;
+  gap: 2em;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container{
+}
+/*-----------------T A B E L A S ---------------------*/
+ @counter-style seta{
+  color: rgb(241, 135, 22);
+  symbols: ►;
+}
+#lista ol{
+  color: rgb(249, 176, 0);
+  list-style-type: lower-alpha;
+}
+#lista li{
+  list-style: lower-alpha;
+  color: rgb(249, 176, 0);
+}
+#tabela ol{
+    color: rgb(241, 135, 22);
+    list-style-type: decimal;
+}
+#ul ul{
+    list-style-type: seta;
+    /*list-style-type: none;*/
+}
+#ul li::before{
+  list-style-type: seta;
+}
+#ul li{
+    /*color:#000000;*/
+    /*color: rgb(241, 135, 22);*/
+    /*list-style-type: seta;*/
+}
+#intro ol{
+  color: rgb(241, 135, 22);
+  list-style-type: decimal;
+}
+#intro li{
+
+}
+
+.texto-bullet {
+	color:#000000;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	/*line-height:1.25;*/
+	/*list-style-position:outside;*/
+	/*margin-bottom:3px;*/
+	/*margin-left:48px;*/
+	margin-right:0;
+	margin-top:0;
+	/*orphans:1;*/
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	/*widows:1;*/
+}
+.interacaohover{
+  opacity: 1;
+}
+.interacaohover:hover{
+  opacity: 0.1;
+}
