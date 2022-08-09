@@ -61,15 +61,42 @@
   text-align: center;
 }
 .LayoutDuplo{
-  display: flex;
-  gap: 2em;
-  grid-template-columns: repeat(2, 1fr);
-}
-.LayoutTriplo{
-  display: flex;
-  gap: 2em;
-  grid-template-columns: repeat(3, 1fr);
-}
-.fundoCinza{
-  background-color: rgb(236,236,238);
-}
+    display: flex;
+    gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .LayoutTriplo{
+    display: flex;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .fundoCinza{
+    background-color: rgb(236,236,238);
+    }
+    .cardTexto{
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .cardFoto{
+      text-align: center;
+      display: block;
+      width: 70%;
+      border: 1px;
+      margin: 10%;
+      border: 1px solid rgb(249, 176, 0);
+      border-radius: 10px;
+      background-color: rgb(254, 236, 205);
+    }    
+    .cardFotosalmao{
+      text-align: center;
+      display: block;
+      width: 70%;
+      border: 1px;
+      margin: 10%;
+      border: 1px solid rgb(249, 176, 0);
+      border-radius: 10px;
+      background-color: rgb(254, 236, 205);
+    }
